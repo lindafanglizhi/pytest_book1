@@ -1,0 +1,92 @@
+{
+  "name": "test_2add_jobtitle[get_data2]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "1、进入职称页",
+      "status": "passed",
+      "start": 1602058454670,
+      "stop": 1602058455727
+    },
+    {
+      "name": "2、输入信息",
+      "status": "passed",
+      "start": 1602058455727,
+      "stop": 1602058455913
+    },
+    {
+      "name": "3、上传文件",
+      "status": "passed",
+      "start": 1602058455914,
+      "stop": 1602058455980
+    },
+    {
+      "name": "4、提交保存",
+      "status": "passed",
+      "start": 1602058455980,
+      "stop": 1602058456077
+    },
+    {
+      "name": "5、断言添加成功并截图",
+      "status": "passed",
+      "attachments": [
+        {
+          "source": "736f6599-8dce-43ae-96d5-faa36e7ff81f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1602058456078,
+      "stop": 1602058456462
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_data",
+      "value": "{'case': {'jobTitle': 'title7', 'jobDescription': 'desc8', 'note_text': 'note9'}}"
+    }
+  ],
+  "start": 1602058454669,
+  "stop": 1602058456462,
+  "uuid": "661e27b6-99dd-4a1e-9133-b3db8fc6ea53",
+  "historyId": "f68b28ff68a7fb146ef85cb59426ee5f",
+  "testCaseId": "2fa915f9af445d8be029fe94d3cc9e91",
+  "fullName": "src.chapter9selenium.test.test_add_jobTitle.TestClass#test_2add_jobtitle",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "添加职称功能"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter9selenium.test"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_jobTitle"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClass"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "16091-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter9selenium.test.test_add_jobTitle"
+    }
+  ]
+}

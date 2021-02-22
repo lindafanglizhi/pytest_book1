@@ -1,0 +1,86 @@
+{
+  "name": "test_2add_jobtitle[get_data0]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "1、进入职称页",
+      "status": "passed",
+      "start": 1602057528809,
+      "stop": 1602057530199
+    },
+    {
+      "name": "2、输入信息",
+      "status": "passed",
+      "start": 1602057530199,
+      "stop": 1602057530401
+    },
+    {
+      "name": "3、上传文件",
+      "status": "passed",
+      "start": 1602057530401,
+      "stop": 1602057530469
+    },
+    {
+      "name": "4、提交保存",
+      "status": "passed",
+      "start": 1602057530469,
+      "stop": 1602057530581
+    },
+    {
+      "name": "5、断言添加成功并截图",
+      "status": "passed",
+      "start": 1602057530581,
+      "stop": 1602057530985
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_data",
+      "value": "{'case': {'jobTitle': 'title1', 'jobDescription': 'descr2', 'note_text': 'note3'}}"
+    }
+  ],
+  "start": 1602057528809,
+  "stop": 1602057530985,
+  "uuid": "1260b440-4b59-4321-b33e-d1e5ac1ec494",
+  "historyId": "605c383846f46b2310912597ecb2593b",
+  "testCaseId": "2fa915f9af445d8be029fe94d3cc9e91",
+  "fullName": "src.chapter9selenium.test.test_add_jobTitle.TestClass#test_2add_jobtitle",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "添加职称功能"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter9selenium.test"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_jobTitle"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClass"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "15757-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter9selenium.test.test_add_jobTitle"
+    }
+  ]
+}

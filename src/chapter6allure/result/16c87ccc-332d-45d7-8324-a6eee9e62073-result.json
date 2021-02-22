@@ -1,0 +1,54 @@
+{
+  "name": "test_broken_with_randomized_time",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "passing_step",
+      "status": "passed",
+      "start": 1601952545720,
+      "stop": 1601952545720
+    },
+    {
+      "name": "flaky_broken_step",
+      "status": "passed",
+      "start": 1601952548720,
+      "stop": 1601952548720
+    }
+  ],
+  "start": 1601952545720,
+  "stop": 1601952548721,
+  "uuid": "c7d50630-c89f-4976-ad24-7701565cbd03",
+  "historyId": "227939c8bdbbe45cb1e63c0edd95e29e",
+  "testCaseId": "9d210e95ffc5e5281440c0946fb28720",
+  "fullName": "src.chapter6allure.test_reruns#test_broken_with_randomized_time",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "src.chapter6allure"
+    },
+    {
+      "name": "suite",
+      "value": "test_reruns"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2115-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter6allure.test_reruns"
+    }
+  ]
+}

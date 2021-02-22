@@ -1,0 +1,48 @@
+{
+  "name": "test_inside_the_normal_severity_test_class_with_overriding_critical_severity",
+  "status": "passed",
+  "start": 1601952330141,
+  "stop": 1601952330141,
+  "uuid": "bc28b0ce-a8d1-463b-bf24-088873cc0504",
+  "historyId": "b1a9a543a5bdda923821834c1e512b2c",
+  "testCaseId": "fb54d27a941d3c573d99e99290db0ec3",
+  "fullName": "src.chapter6allure.test_severity.TestClassWithNormalSeverity#test_inside_the_normal_severity_test_class_with_overriding_critical_severity",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter6allure"
+    },
+    {
+      "name": "suite",
+      "value": "test_severity"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClassWithNormalSeverity"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2038-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter6allure.test_severity"
+    }
+  ]
+}

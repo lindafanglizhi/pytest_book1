@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite errors="0" failures="0" hostname="linda.local" name="pytest_chinese_doc" skipped="0" tests="1"
+               time="0.047" timestamp="2020-05-15T13:07:54.708452">
+        <properties>
+            <property name="EXECUTOR" value="lindafang"/>
+            <property name="LOCATION" value="HRB"/>
+        </properties>
+        <testcase classname="test_xml_report" file="test_xml_report.py" line="19" name="test_record_property3"
+                  time="0.000">
+
+        </testcase>
+    </testsuite>
+</testsuites>

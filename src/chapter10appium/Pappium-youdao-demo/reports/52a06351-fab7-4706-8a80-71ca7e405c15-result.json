@@ -1,0 +1,81 @@
+{
+  "name": "test_addnote[mydaily]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "初始化添加页面",
+      "status": "passed",
+      "start": 1605246243331,
+      "stop": 1605246243331
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "929d0d94-ab92-4aa4-bcb1-9a1109957415-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "add",
+      "value": "'mydaily'"
+    }
+  ],
+  "start": 1605246243331,
+  "stop": 1605246251070,
+  "uuid": "932f4547-1f00-4527-a0ad-998e2cbe2673",
+  "historyId": "334b8cf0229187da0114e758a97ae5d6",
+  "testCaseId": "8db33a95bdc54014b9ea1036d3f6a2a7",
+  "fullName": "testcases.test_add_note_pytest.TestNotePytest#test_addnote",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "笔记功能"
+    },
+    {
+      "name": "story",
+      "value": "添加笔记功能"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_note_pytest"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestNotePytest"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-250-122.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "7020-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_add_note_pytest"
+    }
+  ]
+}

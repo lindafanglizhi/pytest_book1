@@ -1,0 +1,86 @@
+{
+  "name": "test_login",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "使用管理员身份登陆",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "初始化登陆页",
+          "status": "passed",
+          "start": 1602058442389,
+          "stop": 1602058442389
+        },
+        {
+          "name": "输入用户名密码点击登陆",
+          "status": "passed",
+          "start": 1602058442389,
+          "stop": 1602058449457
+        },
+        {
+          "name": "断言admin是否登陆成功并截图",
+          "status": "passed",
+          "start": 1602058449458,
+          "stop": 1602058450442
+        }
+      ],
+      "parameters": [
+        {
+          "name": "init_driver",
+          "value": "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"c16478a3750555de7d21d485eaa40ea1\")>"
+        },
+        {
+          "name": "login_data",
+          "value": "{'baseurl': 'http://81.70.24.116/orangehrm', 'username': 'admin', 'password': 'root1234'}"
+        }
+      ],
+      "start": 1602058439220,
+      "stop": 1602058450442
+    }
+  ],
+  "start": 1602058439220,
+  "stop": 1602058450442,
+  "uuid": "632cdce1-6004-429a-a8f1-b169b587a1cc",
+  "historyId": "2111557ea43ce7a9aa584d2f3ea8c59c",
+  "testCaseId": "4ac3f8dd8e67f52f699910bc4d6bf5f9",
+  "fullName": "src.chapter9selenium.test.test_add_jobTitle.TestClass#test_login",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "登陆功能"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter9selenium.test"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_jobTitle"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClass"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "16091-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter9selenium.test.test_add_jobTitle"
+    }
+  ]
+}

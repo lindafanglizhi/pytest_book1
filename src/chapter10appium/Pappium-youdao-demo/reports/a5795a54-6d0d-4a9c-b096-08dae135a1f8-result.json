@@ -1,0 +1,52 @@
+{
+  "name": "test_deletenote",
+  "status": "passed",
+  "start": 1605246256946,
+  "stop": 1605246256946,
+  "uuid": "91aa413c-8e34-43d9-9953-5afb870b11dd",
+  "historyId": "e314ff1939927dfbdf68c324dbe84599",
+  "testCaseId": "e22a501644a708de344509cdcb40311a",
+  "fullName": "testcases.test_add_note_pytest.TestNotePytest#test_deletenote",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "笔记功能"
+    },
+    {
+      "name": "tag",
+      "value": "sanity"
+    },
+    {
+      "name": "parentSuite",
+      "value": "testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_add_note_pytest"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestNotePytest"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-250-122.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "7020-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "testcases.test_add_note_pytest"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "test_with_normal_severity",
+  "status": "passed",
+  "start": 1601952330136,
+  "stop": 1601952330136,
+  "uuid": "ce32512b-aebf-43f0-a874-9699fafff3f0",
+  "historyId": "5d2aa485a559eba3c4f0162b2e569ee1",
+  "testCaseId": "c322e02d28231846d49b02f349856c32",
+  "fullName": "src.chapter6allure.test_severity#test_with_normal_severity",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter6allure"
+    },
+    {
+      "name": "suite",
+      "value": "test_severity"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2038-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter6allure.test_severity"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "test_createtag",
+  "status": "broken",
+  "statusDetails": {
+    "message": "KeyError: 'tag'",
+    "trace": "@allure.feature(\"正确的创建标签\")\n    @allure.story(\"全正确创建\")\n    @allure.testcase(\"用例1\")\n    def test_createtag():\n        url = 'https://api.weixin.qq.com/cgi-bin/tags/create?access_token=' + access_token()\n        allure.attach(\"数据准备\")\n        data = {\"tag\": {\"name\": \"lindafang000\"}}\n        allure.attach(\"发送post请求\")\n        rep = requests.post(url=url, json=data)\n        allure.attach(\"断言响应状态码为200\")\n        assert 200 == rep.status_code\n        json_rep=rep.json()\n        allure.attach(\"断言返回具体业务信息\")\n>       assert 'lindafang000' ==json_rep['tag']['name']\nE       KeyError: 'tag'\n\ntest_create_tag.py:38: KeyError"
+  },
+  "steps": [
+    {
+      "name": "获得所有接口的入门证书token",
+      "status": "passed",
+      "attachments": [
+        {
+          "source": "eb52feec-3133-4c37-9711-d887a4f4ae34-attachment.attach"
+        },
+        {
+          "source": "070b338b-066c-4f4a-864e-5da07d5ed3e6-attachment.attach"
+        },
+        {
+          "source": "556a8959-16c7-4a3c-9ef5-39048cf2ce4c-attachment.attach"
+        }
+      ],
+      "start": 1602213913865,
+      "stop": 1602213914267
+    }
+  ],
+  "attachments": [
+    {
+      "source": "6d63d8ac-91df-453e-b4c0-62a0cc2fa2d1-attachment.attach"
+    },
+    {
+      "source": "4ccedaf5-1dda-4f6d-a7c9-542a7f0e1bcf-attachment.attach"
+    },
+    {
+      "source": "0f44f8bd-6f08-4c01-9733-c5f116daf435-attachment.attach"
+    },
+    {
+      "source": "ae28ca1c-6eaa-4f61-b9a3-ccb3b3e67f5c-attachment.attach"
+    }
+  ],
+  "start": 1602213913865,
+  "stop": 1602213914614,
+  "uuid": "59f6ced2-5cd5-4af3-aacf-be3b048dea7c",
+  "historyId": "c78e571f1a888c7447bd19b6fdaae979",
+  "testCaseId": "6af855548f1815d31e80d80ef45eab35",
+  "fullName": "src.chapter8api.test_create_tag#test_createtag",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "正确的创建标签"
+    },
+    {
+      "name": "story",
+      "value": "全正确创建"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter8api"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_tag"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2857-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter8api.test_create_tag"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "用例1",
+      "name": "用例1"
+    }
+  ]
+}

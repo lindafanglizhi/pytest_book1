@@ -1,0 +1,66 @@
+{
+  "name": "test_createtag_F_errortoken",
+  "status": "passed",
+  "attachments": [
+    {
+      "source": "447044e2-f7f9-4b0e-8c85-31bb984dfa9c-attachment.attach"
+    },
+    {
+      "source": "8d90f1f3-036f-4249-bd9c-13d73bed9d48-attachment.attach"
+    },
+    {
+      "source": "85771b2f-d992-4863-8316-eda4dc37a3ce-attachment.attach"
+    }
+  ],
+  "start": 1602213985138,
+  "stop": 1602213985379,
+  "uuid": "cf0ca1cc-3e44-4577-9cca-2916c68e78f5",
+  "historyId": "6c5f3a65856036fecd8d27b24a49d068",
+  "testCaseId": "d1eb2633e3d462595858c03ae16e2a41",
+  "fullName": "src.chapter8api.test_create_tag#test_createtag_F_errortoken",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "错误的创建标签"
+    },
+    {
+      "name": "story",
+      "value": "错误token"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter8api"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_tag"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2883-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter8api.test_create_tag"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "用例7",
+      "name": "用例7"
+    }
+  ]
+}

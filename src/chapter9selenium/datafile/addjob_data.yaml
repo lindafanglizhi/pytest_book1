@@ -1,0 +1,12 @@
+- case:
+    jobTitle: 'title1'
+    jobDescription: 'descr2'
+    note_text: 'note3'
+- case:
+    jobTitle: 'title4'
+    jobDescription: 'desc5'
+    note_text: 'note6'
+- case:
+    jobTitle: 'title7'
+    jobDescription: 'desc8'
+    note_text: 'note9'

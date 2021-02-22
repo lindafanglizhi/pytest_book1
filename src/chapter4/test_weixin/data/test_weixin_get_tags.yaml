@@ -1,0 +1,4 @@
+- url: https://api.weixin.qq.com/cgi-bin/tags/get?access_token=
+  result:
+    name: 星标组
+

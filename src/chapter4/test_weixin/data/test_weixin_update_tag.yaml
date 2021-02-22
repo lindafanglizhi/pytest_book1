@@ -1,0 +1,7 @@
+- url: https://api.weixin.qq.com/cgi-bin/tags/update?access_token=
+  data:
+    tag:
+      id: 102
+      name: linda102
+  result:
+    errcode: 0

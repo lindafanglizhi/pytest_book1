@@ -1,0 +1,69 @@
+{
+  "name": "test_createtag",
+  "status": "passed",
+  "attachments": [
+    {
+      "source": "25817c45-48b5-4079-b541-98a1315a0ac8-attachment.attach"
+    },
+    {
+      "source": "6f2c4d68-e322-4e83-ba3a-99a0ad65bf14-attachment.attach"
+    },
+    {
+      "source": "820d11d1-4105-4e7a-a6ff-747c375c2849-attachment.attach"
+    },
+    {
+      "source": "b8bb206f-ee9e-4326-a514-48332d76c26c-attachment.attach"
+    }
+  ],
+  "start": 1602214048730,
+  "stop": 1602214049099,
+  "uuid": "2a59eba4-15cd-49c1-b41e-17a72467705b",
+  "historyId": "c78e571f1a888c7447bd19b6fdaae979",
+  "testCaseId": "6af855548f1815d31e80d80ef45eab35",
+  "fullName": "src.chapter8api.test_create_tag#test_createtag",
+  "labels": [
+    {
+      "name": "story",
+      "value": "全正确创建"
+    },
+    {
+      "name": "feature",
+      "value": "正确的创建标签"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter8api"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_tag"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2932-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter8api.test_create_tag"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "用例1",
+      "name": "用例1"
+    }
+  ]
+}

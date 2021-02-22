@@ -1,0 +1,27 @@
+{
+  "uuid": "c46fc8fd-34b6-45d3-8870-848aa6b8dbbc",
+  "children": [
+    "e980355b-ef95-4b6b-aeb8-f6181bc9331e",
+    "932f4547-1f00-4527-a0ad-998e2cbe2673",
+    "ce01012d-2140-458b-a97c-f77dc84502a5",
+    "91aa413c-8e34-43d9-9953-5afb870b11dd"
+  ],
+  "befores": [
+    {
+      "name": "run_app",
+      "status": "passed",
+      "start": 1605246224383,
+      "stop": 1605246232885
+    }
+  ],
+  "afters": [
+    {
+      "name": "run_app::close_app",
+      "status": "passed",
+      "start": 1605246256948,
+      "stop": 1605246257544
+    }
+  ],
+  "start": 1605246224383,
+  "stop": 1605246257544
+}

@@ -1,0 +1,2 @@
+[32mINFO    [0m linda's test:basepage.py:22 这是个初始化驱动！
+[32mINFO    [0m linda's test:basepage.py:22 这是个初始化驱动！

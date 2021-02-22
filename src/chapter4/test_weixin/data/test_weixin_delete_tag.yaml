@@ -1,0 +1,7 @@
+- url: https://api.weixin.qq.com/cgi-bin/tags/delete?access_token=
+  data:
+    tag:
+      id: 101
+  result:
+    errcode: 0
+    errmsg: ok

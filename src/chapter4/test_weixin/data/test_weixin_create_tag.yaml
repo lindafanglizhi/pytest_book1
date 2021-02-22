@@ -1,0 +1,6 @@
+- url: https://api.weixin.qq.com/cgi-bin/tags/create?access_token=
+  data:
+    tag:
+      name: linda780099
+  result:
+    name: linda780099

@@ -1,0 +1,73 @@
+{
+  "name": "test_createtag",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 'lindafang000' == 'linda9090'\n  - linda9090\n  + lindafang000",
+    "trace": "get_access_token = '38_lIyMXnJRwH-nuGtrDVVa6xlSzdC2YhiNJD-9sjhSDIsxXw7aRAe3X1etP5u9qU0UsqCG5fvSpXjNuqMLHaS8zpOr1kRP3F7DH4dswTBi4a9TrS2l4vJ06AB-o1R1IE3D4f6CjfJ2WwqFzfZaKUOhADAXHB'\n\n    @allure.feature(\"正确的创建标签\")\n    @allure.story(\"全正确创建\")\n    @allure.testcase(\"用例1\")\n    def test_createtag(get_access_token):\n        url = 'https://api.weixin.qq.com/cgi-bin/tags/create?access_token='+ get_access_token\n        allure.attach(\"数据准备\")\n        data = {\"tag\": {\"name\": \"linda9090\"}}\n        allure.attach(\"发送post请求\")\n        rep = requests.post(url=url, json=data)\n        allure.attach(\"断言响应状态码为200\")\n        assert 200 == rep.status_code\n        json_rep=rep.json()\n        allure.attach(\"断言返回具体业务信息\")\n>       assert 'lindafang000' ==json_rep['tag']['name']\nE       AssertionError: assert 'lindafang000' == 'linda9090'\nE         - linda9090\nE         + lindafang000\n\ntest_create_tag.py:38: AssertionError"
+  },
+  "attachments": [
+    {
+      "source": "913c4a4c-af2e-4a04-8a19-6e3b7c3fc86e-attachment.attach"
+    },
+    {
+      "source": "cb9ff580-6ba1-4f67-aa53-853e79cad179-attachment.attach"
+    },
+    {
+      "source": "5f73d063-e973-49f4-abb4-97f11438614f-attachment.attach"
+    },
+    {
+      "source": "4b0ea809-e2d7-4f25-ab3c-a0b5b4ee829e-attachment.attach"
+    }
+  ],
+  "start": 1602214026756,
+  "stop": 1602214027057,
+  "uuid": "2c904c26-a6ea-4940-8d6a-675a481dd3e2",
+  "historyId": "c78e571f1a888c7447bd19b6fdaae979",
+  "testCaseId": "6af855548f1815d31e80d80ef45eab35",
+  "fullName": "src.chapter8api.test_create_tag#test_createtag",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "正确的创建标签"
+    },
+    {
+      "name": "story",
+      "value": "全正确创建"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter8api"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_tag"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2908-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter8api.test_create_tag"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "用例1",
+      "name": "用例1"
+    }
+  ]
+}

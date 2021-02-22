@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "version": "4.5.3",
+  "settings": "2d4baede1716197834adac0c8af0c157",
+  "files": {
+    "coverage-cov___init___py": {
+      "hash": "b70d9fcb47a6bd21b4db404e2254850d",
+      "index": {
+        "nums": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "html_filename": "coverage-cov___init___py.html",
+        "relative_filename": "coverage-cov/__init__.py"
+      }
+    },
+    "coverage-cov_my_program_py": {
+      "hash": "b6ecf0ad43a61f3e7e2a1b9bf03e2eb4",
+      "index": {
+        "nums": [
+          1,
+          7,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "html_filename": "coverage-cov_my_program_py.html",
+        "relative_filename": "coverage-cov/my_program.py"
+      }
+    },
+    "coverage-cov_run_py": {
+      "hash": "fb4561acb1214e4605310df263373bf4",
+      "index": {
+        "nums": [
+          1,
+          3,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        "html_filename": "coverage-cov_run_py.html",
+        "relative_filename": "coverage-cov/run.py"
+      }
+    },
+    "coverage-cov_test_my_program_py": {
+      "hash": "b212eba90cd2f8ee17b900e276e01972",
+      "index": {
+        "nums": [
+          1,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "html_filename": "coverage-cov_test_my_program_py.html",
+        "relative_filename": "coverage-cov/test_my_program.py"
+      }
+    }
+  }
+}

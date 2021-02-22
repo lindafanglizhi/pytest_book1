@@ -1,0 +1,73 @@
+{
+  "name": "test_createtag",
+  "status": "broken",
+  "statusDetails": {
+    "message": "KeyError: 'tag'",
+    "trace": "get_access_token = '38_jEk7GTAUdI3kVbuwv7bOjEozp2BeDuWZPzt3MGckWo4OIvCMvWR6xbpmwFHlh1fr8-PGN4KGNEWGyjhV4YsRJX7wShCJIyF1Nj_854RS-05XCZIOmhOmVoq4OrQtxesYqXKuMVYJ8Eo2NoNdJKKiADAWXX'\n\n    @allure.feature(\"正确的创建标签\")\n    @allure.story(\"全正确创建\")\n    @allure.testcase(\"用例1\")\n    def test_createtag(get_access_token):\n        url = 'https://api.weixin.qq.com/cgi-bin/tags/create?access_token='+ get_access_token\n        allure.attach(\"数据准备\")\n        data = {\"tag\": {\"name\": \"lindafang000\"}}\n        allure.attach(\"发送post请求\")\n        rep = requests.post(url=url, json=data)\n        allure.attach(\"断言响应状态码为200\")\n        assert 200 == rep.status_code\n        json_rep=rep.json()\n        allure.attach(\"断言返回具体业务信息\")\n>       assert 'lindafang000' ==json_rep['tag']['name']\nE       KeyError: 'tag'\n\ntest_create_tag.py:38: KeyError"
+  },
+  "attachments": [
+    {
+      "source": "03aac908-ce12-4c82-972f-f5c4f852dbdc-attachment.attach"
+    },
+    {
+      "source": "144c511e-7e2b-4a72-9356-6158c56b6787-attachment.attach"
+    },
+    {
+      "source": "38c9bb13-d79f-4bad-8a2d-470357b4a2ac-attachment.attach"
+    },
+    {
+      "source": "7842c050-1f2b-4f2d-a31d-b4f5810cc9f0-attachment.attach"
+    }
+  ],
+  "start": 1602213984812,
+  "stop": 1602213985121,
+  "uuid": "eced2781-cbab-4ea2-9cee-025cdc088d62",
+  "historyId": "c78e571f1a888c7447bd19b6fdaae979",
+  "testCaseId": "6af855548f1815d31e80d80ef45eab35",
+  "fullName": "src.chapter8api.test_create_tag#test_createtag",
+  "labels": [
+    {
+      "name": "story",
+      "value": "全正确创建"
+    },
+    {
+      "name": "feature",
+      "value": "正确的创建标签"
+    },
+    {
+      "name": "parentSuite",
+      "value": "src.chapter8api"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_tag"
+    },
+    {
+      "name": "host",
+      "value": "cpe-172-115-241-234.socal.res.rr.com"
+    },
+    {
+      "name": "thread",
+      "value": "2883-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "src.chapter8api.test_create_tag"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "用例1",
+      "name": "用例1"
+    }
+  ]
+}

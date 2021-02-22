@@ -1,0 +1,17 @@
+{
+  "uuid": "9bcd413b-9806-4a3f-9cd5-62e8b4d83aee",
+  "children": [
+    "59f6ced2-5cd5-4af3-aacf-be3b048dea7c",
+    "0bbb9b1d-47e9-4f65-a16f-f516c116b367"
+  ],
+  "befores": [
+    {
+      "name": "sensitive_url",
+      "status": "passed",
+      "start": 1602213913864,
+      "stop": 1602213913864
+    }
+  ],
+  "start": 1602213913864,
+  "stop": 1602213914877
+}
